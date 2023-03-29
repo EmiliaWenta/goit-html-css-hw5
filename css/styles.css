@@ -1,0 +1,351 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  color: #212121;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+:root {
+  --color-blue: #2196f3;
+  --color-p: #757575;
+  --color-darkbackground: #2f303a;
+  --color-white: #ffffff;
+  --color-light-grey: #f5f4fa;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.accent {
+  color: var(--color-blue);
+}
+
+.header {
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.div-for-bottom-line {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
+}
+
+.div-with-logo-and-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio-item {
+  background-color: var(--color-white);
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding: 0;
+  gap: 30px;
+}
+
+.porftolio-item-li figcaption {
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  padding: 20px 24px;
+}
+
+figcaption h4 {
+  margin-bottom: 4px;
+}
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 261px;
+  padding-left: 0px;
+  margin-left: 93px;
+}
+.nav a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus {
+  color: var(--color-blue);
+}
+
+.contact-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--color-p);
+  text-decoration: none;
+}
+
+.contact-header:hover,
+.contact-header:focus {
+  color: var(--color-blue);
+}
+
+.div-with-email-and-tel {
+  width: 295px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--color-white);
+  padding-bottom: 30px;
+}
+
+.main-section {
+  background-color: var(--color-darkbackground);
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.order-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  padding: 10px 41px 10px 42px;
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.order-button:hover,
+.order-button:focus {
+  cursor: pointer;
+}
+
+.about-us {
+  background-color: var(--color-white);
+}
+
+.about-us h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  margin-bottom: 10px;
+}
+
+.about-us p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--color-p);
+}
+
+.about-us-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.about-us .what-we-do {
+  padding-top: 0px;
+}
+
+.what-we-do-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.h2-our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.h2-what-we-do {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.our-team {
+  background-color: var(--color-light-grey);
+}
+
+.our-team-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.our-team-list h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.our-team-list p {
+  font-size: 16px;
+  line-height: 1.17;
+  padding-bottom: 30px;
+  color: var(--color-p);
+}
+
+.our-team-list figure {
+  background-color: var(--color-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-list figcaption {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  background-color: var(--color-light-grey);
+  cursor: pointer;
+  border-radius: 4px;
+  border: 0px;
+  padding: 6px 22px 6px 22px;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.portfolio-button-list ul {
+  list-style: none;
+}
+
+.portfolio-button-list-open {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+img {
+  display: block;
+}
+
+.portfolio-item h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-item p {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--color-p);
+}
+
+.fotter-for-background {
+  background-color: var(--color-darkbackground);
+}
+
+.logo-fotter {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color: var(--color-white);
+  text-decoration: none;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+.address {
+  padding-bottom: 60px;
+}
+.address p {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--color-white);
+  font-style: normal;
+  margin-bottom: 9px;
+}
+
+.address a {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.address .e-mail {
+  text-decoration: underline;
+}
+
+.email-in-fotter {
+  margin-bottom: 9px;
+}
+
+.logo-fotter:hover,
+.logo-fotter:focus {
+  color: var(--color-blue);
+}
+
+.address a:focus,
+.address a:hover {
+  color: var(--color-blue);
+}
