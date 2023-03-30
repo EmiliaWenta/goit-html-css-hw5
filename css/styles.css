@@ -118,7 +118,6 @@ figcaption h4 {
 }
 
 .div-with-email-and-tel {
-  width: 295px;
   display: flex;
   justify-content: space-between;
 }
@@ -348,4 +347,8 @@ img {
 .address a:focus,
 .address a:hover {
   color: var(--color-blue);
+}
+
+.icon {
+  fill: currentColor;
 }
