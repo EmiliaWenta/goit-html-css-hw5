@@ -37,11 +37,23 @@
             </ul>
           </nav>
         </div>
-        <div class="div-with-email-and-tel">
-          <a class="contact-header" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-          <a class="contact-header" href="tel:+48111111111">+48 111 111 111</a>
+        <div class="div-with-contact">
+          <div class="div-with-contact-email">
+            <svg class="icon" width="16" height="12">
+              <use href="./images/icon.svg#icon-envelope"></use>
+            </svg>
+            <a class="contact-header" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </div>
+          <div class="div-with-contact-tel">
+            <svg class="icon" width="10" height="16">
+              <use href="./images/icon.svg#icon-smartphone"></use>
+            </svg>
+            <a class="contact-header" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </div>
         </div>
       </header>
     </div>
@@ -197,23 +209,53 @@
     </main>
 
     <div class="fotter-for-background">
-      <footer class="footer container">
-        <p class="logo-fotter">
-          <a class="logo-fotter" href="./index.html"
-            ><span class="accent">Web</span>Studio</a
-          >
-        </p>
+      <footer class="container">
+        <div class="class-for-flex-in-footer">
+          <div class="div1">
+            <p class="logo-fotter">
+              <a class="logo-fotter" href="./index.html"
+                ><span class="accent">Web</span>Studio</a
+              >
+            </p>
 
-        <address class="address">
-          <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-          <div class="email-in-fotter">
-            <a class="e-mail" href="mailto:info@devstudio.com"
-              >info@example.com</a
-            >
+            <address class="address">
+              <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+              <div class="email-in-fotter">
+                <a class="e-mail" href="mailto:info@devstudio.com"
+                  >info@example.com</a
+                >
+              </div>
+              <a href="tel:+48111111111">+48 111 111 111</a>
+            </address>
           </div>
-
-          <a href="tel:+48111111111">+48 111 111 111</a>
-        </address>
+          <div class="div2">
+            <section class="join-us">
+              <p>DOŁĄCZ DO NAS</p>
+              <ul class="icon-in-fotter-ul">
+                <li class="icon-in-fotter-li">
+                  <svg class="icon-in-fotter" width="20" height="20">
+                    <use href="./images/icon.svg#icon-instagram"></use>
+                  </svg>
+                </li>
+                <li class="icon-in-fotter-li">
+                  <svg class="icon-in-fotter" width="20" height="20">
+                    <use href="./images/icon.svg#icon-twitter"></use>
+                  </svg>
+                </li>
+                <li class="icon-in-fotter-li">
+                  <svg class="icon-in-fotter" width="20" height="20">
+                    <use href="./images/icon.svg#icon-facebook"></use>
+                  </svg>
+                </li>
+                <li class="icon-in-fotter-li">
+                  <svg class="icon-in-fotter" width="20" height="20">
+                    <use href="./images/icon.svg#icon-linkedin"></use>
+                  </svg>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
       </footer>
     </div>
   </body>
