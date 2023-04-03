@@ -154,7 +154,11 @@ figcaption h4 {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url(../images/mainpage/main-big-photo.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/mainpage/main-big-photo.jpg);
 }
 
 .order-button {
@@ -281,8 +285,11 @@ figcaption h4 {
   padding-top: 0px;
 }
 
-.icon-social-li:focus,
-.icon-social-li:hover {
+.icon-social-li > a {
+  display: flex;
+}
+.icon-social-li > a:focus,
+.icon-social-li > a:hover {
   background-color: var(--color-blue);
   cursor: pointer;
   border-radius: 50%;
@@ -320,10 +327,12 @@ figcaption h4 {
   padding: 16px 32px;
 }
 
-.our-custom-list-li:hover,
+.our-custom-list-a:hover,
 .icon-our-customs:hover,
-.our-custom-list-li:focus,
-.icon-our-customs:focus {
+.our-custom-list-li:hover,
+.our-custom-list-a:focus,
+.icon-our-customs:focus,
+.our-custom-list-li:focus {
   border-color: var(--color-blue);
   fill: var(--color-blue);
   cursor: pointer;
