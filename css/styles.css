@@ -330,6 +330,7 @@ figcaption h4 {
   justify-content: center;
   align-items: center;
   padding: 17px 0px 14px 0px;
+  width: 100%;
 }
 
 .our-custom-list-li:focus-within {
