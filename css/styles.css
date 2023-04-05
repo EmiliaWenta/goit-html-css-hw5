@@ -293,6 +293,7 @@ figcaption h4 {
   background-color: var(--color-blue);
   cursor: pointer;
   border-radius: 50%;
+  outline: none;
 }
 
 .icon-social-li > a:focus svg,
@@ -481,28 +482,28 @@ img {
 
 .icon-in-fotter {
   fill: var(--color-white);
+  padding: 12px;
 }
 
 .icon-in-fotter-ul {
-  width: 206px;
+  list-style: none;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  gap: 10px;
   padding-top: 20px;
 }
 
 .icon-in-fotter-li {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  width: 44px;
-  height: 44px;
-  padding: 12px;
 }
 
-.icon-in-fotter-li:hover,
-.icon-in-fotter-li:focus {
+.icon-in-fotter-li > a:hover,
+.icon-in-fotter-li > a:focus {
+  border-radius: 50%;
   background-color: var(--color-blue);
   cursor: pointer;
+  outline: none;
 }
 
 .icon-in-fotter-li > a {
