@@ -378,6 +378,7 @@ figcaption h4 {
 .icon-social-li > a {
   display: flex;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 50%;
 }
 .icon-social-li > a:focus,
 .icon-social-li > a:hover {
@@ -606,6 +607,7 @@ img {
 .icon-in-fotter-li > a {
   display: flex;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 50%;
 }
 
 .icon-in-fotter-li svg {
@@ -659,5 +661,12 @@ img {
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
+}
+
+.close-btn:hover {
+  color: var(--color-blue);
+  border: 1px solid var(--color-blue);
+  border-radius: 50%;
   cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
