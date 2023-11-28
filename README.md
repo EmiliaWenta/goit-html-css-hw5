@@ -1,2 +1,3 @@
-# goit-markup-hw-05
-zadanie domowe nr 5 z kursu
+# goit-html-css-hw5
+Purpose of the task was:
+-add animated decorative effects to layout pages.
